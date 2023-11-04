@@ -12,6 +12,11 @@ concept
 3.create api set to cookie-http only,secure,same site
 4.from client side:axios withCredentials true
 5.cors setup origin and credentials:true
-
+// 
+1.for secure api calls
+2.server side :install cookie parser and use it as a middleware
+3.req.cookies
+4.on the client side: make api call using axios with credentials true or credentials include while using fetch
+5.
 */
 // 
